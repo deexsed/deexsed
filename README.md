@@ -42,6 +42,14 @@
 - **[video2ASCII](https://github.com/deexsed/video2ASCII)** — Инструмент на C++ для преобразования видео в ASCII-арт
 - **[resume-website](https://github.com/deexsed/resume-website)** — Веб-сайт резюме с использованием CSS
 
+## 🎯 Дорожная карта развития
+
+Следую принципам непрерывного обучения и использую структурированные дорожные карты для освоения технологий:
+
+[![roadmap.sh](https://roadmap.sh/card/tall/668f16607d03d0bb6da736d9?variant=dark&roadmaps=cpp%2Cgit-github%2Cdocker%2Clinux)](https://roadmap.sh/cpp)
+
+Эта дорожная карта помогает систематизировать изучение C++, инструментов разработки и системного администрирования.
+
 ## 📈 Статистика GitHub
 
 ![Статистика GitHub](https://github-readme-stats.vercel.app/api?username=deexsed&show_icons=true&theme=radical)
@@ -49,5 +57,3 @@
 ---
 
 *В свободное время проектирую и тестирую собственные технические идеи — это помогает мне глубже понимать архитектуру и быстро осваивать новые инструменты.*
-
-[![roadmap.sh](https://roadmap.sh/card/tall/668f16607d03d0bb6da736d9?variant=dark&roadmaps=cpp%2Cgit-github%2Cdocker%2Clinux)](https://roadmap.sh)
