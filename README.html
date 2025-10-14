@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>deexsed - GitHub Profile</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .language-switcher {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .lang-btn {
+            background: #007acc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .lang-btn.active {
+            background: #0056b3;
+        }
+        .content {
+            display: none;
+        }
+        .content.active {
+            display: block;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Привет! 👋 / Hi there! 👋</h1>
+    </div>
+
+    <div class="language-switcher">
+        <button class="lang-btn active" onclick="showLanguage('ru')">Русский</button>
+        <button class="lang-btn" onclick="showLanguage('en')">English</button>
+    </div>
+
+    <div id="ru-content" class="content active">
+        <h2>О себе</h2>
+        <p>Я — C++ разработчик с опытом в embedded-системах, промышленном ПО и backend-разработке...</p>
+
+        <h2>## 🛠️ Навыки и технологии</h2>
+        <h3>Языки программирования</h3>
+        <ul>
+            <li><strong>C++</strong> (17/20/23) — основной язык</li>
+            <li><strong>Python</strong> — backend, автоматизация</li>
+            <li><strong>JavaScript/TypeScript</strong> — frontend, веб-разработка</li>
+        </ul>
+
+        <h2>## 💼 Опыт работы</h2>
+        <p><strong>AО "СИСТЕМА-ЦЕНТР"</strong> (Сентябрь 2024 — настоящее время)</p>
+        <p><em>Инженер-программист</em></p>
+
+        <p><strong>ЗАО "Болид"</strong> (Август 2023 — Июль 2024)</p>
+        <p><em>C++ инженер-разработчик</em></p>
+
+        <h2>## 📚 Образование</h2>
+        <p><strong>Среднерусский институт управления РАНХиГС</strong></p>
+        <p><em>Бакалавр по направлению "Информационные системы и технологии"</em> (2024)</p>
+
+        <h2>## 📫 Контакты</h2>
+        <ul>
+            <li><strong>Email:</strong> listev_d@mail.ru</li>
+        </ul>
+    </div>
+
+    <div id="en-content" class="content">
+        <h2>About Me</h2>
+        <p>I am a C++ developer with experience in embedded systems, industrial software, and backend development...</p>
+
+        <h2>## 🛠️ Skills and Technologies</h2>
+        <h3>Programming Languages</h3>
+        <ul>
+            <li><strong>C++</strong> (17/20/23) — main language</li>
+            <li><strong>Python</strong> — backend, automation</li>
+            <li><strong>JavaScript/TypeScript</strong> — frontend, web development</li>
+        </ul>
+
+        <h2>## 💼 Work Experience</h2>
+        <p><strong>JSC "SISTEMA-CENTER"</strong> (September 2024 — present)</p>
+        <p><em>Software Engineer</em></p>
+
+        <p><strong>CJSC "Bolid"</strong> (August 2023 — July 2024)</p>
+        <p><em>C++ Development Engineer</em></p>
+
+        <h2>## 📚 Education</h2>
+        <p><strong>Russian Academy of National Economy and Public Administration (RANEPA)</strong></p>
+        <p><em>Bachelor's degree in Information Systems and Technologies</em> (2024)</p>
+
+        <h2>## 📫 Contacts</h2>
+        <ul>
+            <li><strong>Email:</strong> listev_d@mail.ru</li>
+        </ul>
+    </div>
+
+    <script>
+        function showLanguage(lang) {
+            // Hide all content
+            document.querySelectorAll('.content').forEach(content => {
+                content.classList.remove('active');
+            });
+
+            // Remove active class from all buttons
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            // Show selected language content
+            document.getElementById(lang + '-content').classList.add('active');
+
+            // Add active class to clicked button
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
