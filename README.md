@@ -105,6 +105,12 @@
 ###
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/deexsed/deexsed/main/github-metrics.svg" alt="Recent activity and starred repos (lowlighter/metrics)">
+</p>
+
+###
+
+<p align="center">
   <img height="170" src="https://github-readme-stats-fast.vercel.app/api?username=deexsed&theme=bear&show_icons=true&hide_border=true&count_private=true&locale=en" alt="GitHub stats">
   <img width="10" alt="" />
   <img height="170" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=deexsed&layout=compact&theme=bear&hide_border=true&langs_count=8&locale=en" alt="Top languages">
@@ -114,12 +120,6 @@
 
 <p align="center">
   <img src="https://github-profile-trophy-tawny.vercel.app/?username=deexsed&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Trophies">
-</p>
-
-###
-
-<p align="center">
-  <img height="170" src="https://streak-stats.demolab.com/?user=deexsed&theme=radical&hide_border=true&border_radius=8&locale=en" alt="Contribution streak">
 </p>
 
 ###
@@ -142,4 +142,10 @@
   </picture>
 </p>
 
-<!-- Run workflows once: "Generate contribution snake" (branch output) and "GitHub Profile 3D Contrib" (folder profile-3d-contrib) until assets exist. -->
+###
+
+<p align="center">
+  <a href="https://skyline.github.com/deexsed/2026"><img src="https://img.shields.io/badge/GitHub_Skyline-2026_(3D)-24283b?style=flat-square&logo=github&logoColor=c0caf5" alt="Open GitHub Skyline (3D yearly view)"></a>
+</p>
+
+<!-- One-time: run Actions for snake (branch output), 3D contrib (profile-3d-contrib/), Metrics. Add repo secret METRICS_TOKEN: classic PAT with read:user + public_repo (or repo) so lowlighter/metrics can read your public activity. -->
