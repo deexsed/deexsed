@@ -1,4 +1,4 @@
-<h1 align="center">🐉 Dmitry</h1>
+<h1 align="center">Dmitry</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=500&amp;size=24&amp;duration=2800&amp;pause=1000&amp;color=7AA2F7&amp;center=true&amp;vCenter=true&amp;width=700&amp;lines=Embedded+systems+%26+industrial+interfaces;TCP%2FUDP+%C2%B7+WebSocket+%C2%B7+HTTP%2FS+%C2%B7+RS-485;Qt+%C2%B7+Python+%28FastAPI%29+%C2%B7+React" alt="" />
